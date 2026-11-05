@@ -202,7 +202,7 @@ public final class EnchantRegistry {
         new EnchantDef("Renacimiento", "Renacimiento", Category.PESCA_Y_ESPECIALES, "Efecto defensivo con enfriamiento.", 1),
         new EnchantDef("AuraDeFuerza", "Aura de Fuerza", Category.PESCA_Y_ESPECIALES, "Otorga fuerza temporal.", 5),
         new EnchantDef("VytalSupremo", "VytalSupremo", Category.PESCA_Y_ESPECIALES, "Encantamiento supremo experimental.", 1),
-    );
+    )
     private EnchantRegistry() {}
     public static List<EnchantDef> all() { return ALL; }
     public static List<EnchantDef> category(Category c) { return ALL.stream().filter(e -> e.category()==c).toList(); }
