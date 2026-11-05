@@ -1,0 +1,16 @@
+name: VytalEnchants
+version: 1.0.0
+main: studio.vytal.vytalenchants.VytalEnchants
+api-version: '1.20'
+author: Vytal Game Studios
+description: Custom OP enchantments stored in enchanted books.
+commands:
+  ve:
+    description: VytalEnchants main command
+    usage: /ve [menu|list|book|reload]
+    aliases: [vytalenchants]
+permissions:
+  vytalenchants.use:
+    default: true
+  vytalenchants.admin:
+    default: op
