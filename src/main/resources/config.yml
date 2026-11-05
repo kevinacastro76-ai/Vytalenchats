@@ -1,0 +1,10 @@
+settings:
+  menu-title: '&5&lVytalEnchants'
+  anvil:
+    enabled: true
+    max-cost: 39
+  effects:
+    minero3x3: true
+    filo-mortal: true
+    robo-vida: true
+    
